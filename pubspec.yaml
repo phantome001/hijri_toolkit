@@ -1,0 +1,29 @@
+name: hijri_toolkit
+description: >-
+  Convert between Gregorian and Hijri dates and format them in Arabic or
+  English. Pure Dart and Flutter with no dependencies and no platform plugins.
+version: 0.1.0
+homepage: https://github.com/phantome001/hijri_toolkit
+repository: https://github.com/phantome001/hijri_toolkit
+issue_tracker: https://github.com/phantome001/hijri_toolkit/issues
+topics:
+  - flutter
+  - dart
+  - hijri
+  - date
+  - formatter
+  - arabic
+  - mobile
+
+environment:
+  sdk: ^3.9.0
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lints: ^6.0.0

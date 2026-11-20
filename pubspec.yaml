@@ -8,12 +8,10 @@ repository: https://github.com/phantome001/hijri_toolkit
 issue_tracker: https://github.com/phantome001/hijri_toolkit/issues
 topics:
   - flutter
-  - dart
   - hijri
   - date
   - formatter
   - arabic
-  - mobile
 
 environment:
   sdk: ^3.9.0

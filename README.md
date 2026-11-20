@@ -1,5 +1,7 @@
 # hijri_toolkit
 
+![hijri_toolkit banner](https://raw.githubusercontent.com/phantome001/hijri_toolkit/main/assets/hijri_toolkit_banner.svg)
+
 [![pub package](https://img.shields.io/pub/v/hijri_toolkit.svg)](https://pub.dev/packages/hijri_toolkit)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 

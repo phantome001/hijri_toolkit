@@ -107,7 +107,19 @@ void main() {
           leapYears.add(year);
         }
       }
-      expect(leapYears, [1442, 1445, 1447, 1450, 1453, 1456, 1458, 1461, 1464, 1466, 1469]);
+      expect(leapYears, [
+        1442,
+        1445,
+        1447,
+        1450,
+        1453,
+        1456,
+        1458,
+        1461,
+        1464,
+        1466,
+        1469,
+      ]);
     });
 
     test('daysInYear matches leap status', () {

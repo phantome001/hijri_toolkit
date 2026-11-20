@@ -112,7 +112,8 @@ class HijriDate implements Comparable<HijriDate> {
       1;
 
   /// Whether [year] is a leap year in the 30-year tabular cycle.
-  static bool isLeapYear(int year) => _leapsThrough(year) > _leapsThrough(year - 1);
+  static bool isLeapYear(int year) =>
+      _leapsThrough(year) > _leapsThrough(year - 1);
 
   /// Number of days in [month] of [year].
   static int daysInMonth(int year, int month) {

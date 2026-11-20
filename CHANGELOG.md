@@ -1,3 +1,7 @@
+## 0.2.0
+
+- Added a project banner to the README.
+
 ## 0.1.0
 
 - Initial release.

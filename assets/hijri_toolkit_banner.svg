@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="hijri_toolkit banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1F3A"/>
+      <stop offset="0.55" stop-color="#103D5C"/>
+      <stop offset="1" stop-color="#0F766E"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.2" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#5EEAD4" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#5EEAD4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="moon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FEF3C7"/>
+      <stop offset="1" stop-color="#FBBF24"/>
+    </linearGradient>
+    <mask id="crescent">
+      <rect width="1200" height="400" fill="#fff"/>
+      <circle cx="244" cy="162" r="76" fill="#000"/>
+    </mask>
+    <g id="star" fill="#99F6E4">
+      <path d="M0 -9 L2.2 -2.2 L9 0 L2.2 2.2 L0 9 L-2.2 2.2 L-9 0 L-2.2 -2.2 Z"/>
+    </g>
+  </defs>
+
+  <rect width="1200" height="400" fill="url(#bg)"/>
+  <rect width="1200" height="400" fill="url(#glow)"/>
+
+  <!-- subtle Islamic-inspired geometric lattice -->
+  <g stroke="#5EEAD4" stroke-opacity="0.07" stroke-width="1" fill="none">
+    <path d="M0 80 L1200 80 M0 160 L1200 160 M0 240 L1200 240 M0 320 L1200 320"/>
+    <path d="M80 0 L80 400 M160 0 L160 400 M240 0 L240 400 M320 0 L320 400 M400 0 L400 400"/>
+    <path d="M0 0 L400 400 M400 0 L0 400 M800 0 L1200 400 M1200 0 L800 400"/>
+  </g>
+
+  <!-- crescent -->
+  <circle cx="190" cy="200" r="92" fill="url(#moon)" mask="url(#crescent)"/>
+
+  <!-- calendar grid -->
+  <g transform="translate(108 260)">
+    <rect x="0" y="0" width="184" height="92" rx="12" fill="#0B1F3A" fill-opacity="0.55" stroke="#5EEAD4" stroke-opacity="0.35"/>
+    <g fill="#5EEAD4" fill-opacity="0.85">
+      <rect x="16" y="16" width="16" height="16" rx="3"/>
+      <rect x="42" y="16" width="16" height="16" rx="3"/>
+      <rect x="68" y="16" width="16" height="16" rx="3"/>
+      <rect x="94" y="16" width="16" height="16" rx="3"/>
+      <rect x="120" y="16" width="16" height="16" rx="3"/>
+      <rect x="146" y="16" width="16" height="16" rx="3"/>
+      <rect x="16" y="42" width="16" height="16" rx="3"/>
+      <rect x="42" y="42" width="16" height="16" rx="3" fill="#FBBF24"/>
+      <rect x="68" y="42" width="16" height="16" rx="3" fill="#FBBF24"/>
+      <rect x="94" y="42" width="16" height="16" rx="3"/>
+      <rect x="120" y="42" width="16" height="16" rx="3"/>
+      <rect x="146" y="42" width="16" height="16" rx="3"/>
+      <rect x="16" y="68" width="16" height="16" rx="3"/>
+      <rect x="42" y="68" width="16" height="16" rx="3"/>
+      <rect x="68" y="68" width="16" height="16" rx="3"/>
+      <rect x="94" y="68" width="16" height="16" rx="3" fill="#FBBF24"/>
+      <rect x="120" y="68" width="16" height="16" rx="3"/>
+      <rect x="146" y="68" width="16" height="16" rx="3"/>
+    </g>
+  </g>
+
+  <!-- stars -->
+  <path transform="translate(330 112) scale(0.85)" d="M0 -9 L2.2 -2.2 L9 0 L2.2 2.2 L0 9 L-2.2 2.2 L-9 0 L-2.2 -2.2 Z"/>
+  <path transform="translate(372 236) scale(0.55)" d="M0 -9 L2.2 -2.2 L9 0 L2.2 2.2 L0 9 L-2.2 2.2 L-9 0 L-2.2 -2.2 Z"/>
+  <path transform="translate(64 148) scale(0.5)" d="M0 -9 L2.2 -2.2 L9 0 L2.2 2.2 L0 9 L-2.2 2.2 L-9 0 L-2.2 -2.2 Z"/>
+  <path transform="translate(440 158) scale(0.65)" d="M0 -9 L2.2 -2.2 L9 0 L2.2 2.2 L0 9 L-2.2 2.2 L-9 0 L-2.2 -2.2 Z"/>
+
+  <!-- title -->
+  <text x="470" y="196" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="72" font-weight="700" fill="#FFFFFF" letter-spacing="-1">hijri_toolkit</text>
+  <text x="474" y="246" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="400" fill="#99F6E4">Gregorian &#8644; Hijri &#183; Arabic &#183; Flutter</text>
+
+  <!-- accent rule -->
+  <rect x="474" y="272" width="86" height="4" rx="2" fill="#FBBF24"/>
+  <text x="474" y="316" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" fill="#CBD5E1">Pure Dart &#183; No dependencies &#183; 31 tests</text>
+</svg>

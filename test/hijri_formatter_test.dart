@@ -102,10 +102,7 @@ void main() {
     });
 
     test('toString describes the formatter', () {
-      expect(
-        const HijriFormatter().toString(),
-        contains('HijriFormatter('),
-      );
+      expect(const HijriFormatter().toString(), contains('HijriFormatter('));
     });
   });
 }

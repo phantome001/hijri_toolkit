@@ -48,7 +48,8 @@ class HijriText extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final direction =
-        textDirection ?? (formatter.locale == HijriLocale.ar
+        textDirection ??
+        (formatter.locale == HijriLocale.ar
             ? TextDirection.rtl
             : TextDirection.ltr);
     return Text(

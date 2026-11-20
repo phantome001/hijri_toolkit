@@ -139,8 +139,9 @@ class HijriFormatter {
     int month, {
     HijriLocale locale = HijriLocale.ar,
   }) {
-    final names =
-        locale == HijriLocale.ar ? _arabicShortMonths : _englishShortMonths;
+    final names = locale == HijriLocale.ar
+        ? _arabicShortMonths
+        : _englishShortMonths;
     return names[month - 1];
   }
 
@@ -150,8 +151,7 @@ class HijriFormatter {
     HijriLocale locale = HijriLocale.ar,
     bool short = false,
   }) {
-    final names =
-        locale == HijriLocale.ar ? _arabicWeekdays : _englishWeekdays;
+    final names = locale == HijriLocale.ar ? _arabicWeekdays : _englishWeekdays;
     final name = names[weekday - 1];
     return short && locale == HijriLocale.en ? name.substring(0, 3) : name;
   }

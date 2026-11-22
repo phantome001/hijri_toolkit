@@ -1,3 +1,7 @@
+## 0.2.1
+
+- Added a runnable Flutter example under `example/`.
+
 ## 0.2.0
 
 - Added a project banner to the README.

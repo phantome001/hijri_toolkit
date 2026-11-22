@@ -46,6 +46,17 @@ HijriText(
 )
 ```
 
+## Example
+
+A runnable Flutter example lives in [`example/`](example). It shows Arabic and
+English formatting with `HijriText`:
+
+```sh
+cd example
+flutter pub get
+flutter run
+```
+
 ## Accuracy note
 
 This package implements the **tabular civil** Hijri calendar, which is based
